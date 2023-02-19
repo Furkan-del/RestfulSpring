@@ -38,4 +38,4 @@ When We use DTO pattern We must use ModelMapper it maps to for example User -> U
 I used here Monolithic Architecture .But I know many companies uses usually Microservices Architectures It depends on the complex of project or any aspects.
 What is Monolithic Architecture
 Just One Database
-A Server ->Load balancer regulates the Processes maybe some requests are so much ıt can regulates 
+A Server ->Load balancer regulates the Processes maybe some requests are so much ıt can regulate.
