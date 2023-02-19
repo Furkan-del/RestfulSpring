@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html   xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link th:href="@{/static.css/style.css}">
+    <script th:src="@{/js/template.js}"></script>
+</head>
+<body>
+<h1>thymeleafhtml1</h1>
+<h2 th:text="'Normal Thymleaf-1'"></h2>
+<p th:text="${key_model}"></p>
+<p th:text="${key_model2}"></p>
+<a href="/thyme1" class="thymeleaf1">Click me</a>
+
+</body>
+</html>
