@@ -32,6 +32,10 @@ Here We can see Component and Bean anonotations
 They basically create an instance and it sends to Spring Ioc container .And Whenever we want to use ,We can use easily @Bean annotations is based method .We can call it anywhere from our Program and use it.
 
 okey lets build up the puzzle!
-When We use DTO pattern We must use ModelMapper it maps to for example User -> UserDTO that is a bean we can do it
+When We use DTO pattern We must use ModelMapper it maps to for example User -> UserDTO that is a bean we can do it.
 
 
+I used here Monolithic Architecture .But I know many companies uses usually Microservices Architectures It depends on the complex of project or any aspects.
+What is Monolithic Architecture
+Just One Database
+A Server ->Load balancer regulates the Processes maybe some requests are so much ıt can regulates 
