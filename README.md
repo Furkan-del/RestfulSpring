@@ -1,6 +1,7 @@
 # RestfulSpring
 This Repo uses DTO-Pattern, Rest api,Spring Web Service,Spring Data,Sprng Jpa,Hibernate
 In this Example I used DTO Pattern between Presentation Layer and Business Layer.
+Used Database  : PostgreSQL
 
 I used package-system. control to project or how to use/do ?
 When We want to use CRUD operations we dont want to use directly our model Class so We created the DTO object. Because we  dont want to show  to user all infos about entity.
