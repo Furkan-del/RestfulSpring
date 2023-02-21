@@ -37,7 +37,7 @@ public class EmployeeServiceImpl implements EmployeeServices {
 
     @Override
     public EmployeeDto createEmployee(@RequestBody EmployeeDto employeeDto) {
-        EmployeeEntity employeeEntity = employeeRepository.save(dtoToEntity(employeeDto));
+        employeeRepository.save(dtoToEntity(employeeDto));
         return employeeDto;
     }
     //find
@@ -78,15 +78,15 @@ public class EmployeeServiceImpl implements EmployeeServices {
     //Dto to Entity
     @Override
     public EmployeeEntity dtoToEntity(EmployeeDto employeeDto) {
-        EmployeeEntity employeeEntity = modelMapper.map(employeeDto, EmployeeEntity.class);
-        return employeeEntity;
+
+        return modelMapper.map(employeeDto, EmployeeEntity.class);
     }
 
     //Entity to Dto
     @Override
     public EmployeeDto entityToDto(EmployeeEntity entity) {
-        EmployeeDto employeeDto = modelMapper.map(entity, EmployeeDto.class);
-        return employeeDto;
+          return modelMapper.map(entity, EmployeeDto.class);
+
     }
     //
 

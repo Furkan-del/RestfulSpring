@@ -26,6 +26,9 @@ public class EmployeeEntity extends BaseEntity implements Serializable {
     @Column(name="email_id")
     private String emailId;
 
+    @Column(name="password")
+    private String password;
+
     public EmployeeEntity(String firstName, String lastName, String emailId) {
         this.firstName = firstName;
         this.lastName = lastName;
